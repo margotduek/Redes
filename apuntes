@@ -1,0 +1,28 @@
+Redes 1
+Edgar Bermejo
+
+
+
+Señal analógica
+  Es una señal continua, es decir si tomamos un punto en 0.000001 va a ser diferente
+  a 0.000002, podria decirse que es como un seno o coseno. Esta siempre va a ser mejor
+  que la señal digital
+Señal digital
+  Es una señal escalonada, es decir si lo ves en el 0.1 y en el 0.2, posiblemente
+  va a tener el mismo valor, va cambiando, pero si se puede quedar en el mismo punto.
+
+
+
+Terminos
+  - Hz vs bps ---> Un Hz es un ciclo
+  - NIC
+
+
+Investigacion
+  - Investigar cuanta informacion digital se puede transportar en una señal de
+    radio AM, FM
+
+
+
+Preguntas
+  - Que con las veces que necesitas mas de 5 acces points
