@@ -15,8 +15,18 @@ Señal digital
 
 Terminos
   - Hz vs bps ---> Un Hz es un ciclo
-  - NIC
-
+  - NIC --> Network Interface Card, Tarjeta de red
+  - Tecnologias de microondas
+  - IXP --> Punto de intercambio de internet, punto neutro
+  - IP --> Internet protocol
+  - VPN --> Virtual Private Network, es una red publica (cualquiera puede comprar sus servicios)
+    donde la informacion de cada cliente viaja cifrada(oculta)
+    (dizfrasa a tu ip)
+  - MPLS --> Mullti Protocol Label Switching, es una red privada que lleva tráfico publico
+  - Proxy --> Es algo/alguien que realiza una accion en dombre de alguien/algo más (abogado)
+  - ISP --> Internet Service Provider
+  - UTP --> Ushielded Twisted Pair, cable de red
+  - d
 
 Investigacion
   - Investigar cuanta informacion digital se puede transportar en una señal de

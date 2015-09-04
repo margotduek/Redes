@@ -1,0 +1,56 @@
+
+
+
+IOS --> Cisco Internetwork Operating System
+  Hay diferentes tipos de OP para Cisco:
+    IOS for switches, routers, and other Cisco networking devices
+    IOS numbered versions for a given Cisco networking device
+    IOS feature sets providing distinct packages of features and services
+  Funciones principales -->
+    Providing network security
+    IP addressing of virtual and physical interfaces
+    Enabling interface-specific configurations to optimize connectivity of the respective media
+    Routing
+    Enabling quality of service (QoS) technologies
+    Supporting network management technologies
+  There are several ways to access the CLI environment. The most common methods are:
+    Console
+    Telnet or SSH
+    AUX port
+  In hierarchical order from most basic to most specialized, the major modes are:
+    - User executive (User EXEC) mode --> No puede hacer nada, es casi casi de pura
+      lectura, no puede ejecutar comandos ni cambiar la configuracion. Para entrar
+      de esta manera, generalmente no se necesita autenticacion, y sale en la
+      terminal con este simbolo "Switch>"
+    - Privileged executive (Privileged EXEC) mode --> Para llegar a este modo se
+      tiene que poner el comando "enable",  la terminal se ve con este simbolo
+      "Switch#" despues de que ya se activo este modo y para salir simpremente se
+      pone "desable" y regresa a EXEC
+    - Global configuration mode --> para poder llegar a este modo tienes que
+      pasar por EXEC y por Privileged EXEC para poder accesar, desde este modo
+      ya puedes hacer confguraciones, para poer entrar a este modo necesitas este
+      comando "Switch# configure terminal" y ahi ya se cambia a este modo y la
+      terminal se ve asi "Switch(config)#"
+    - Other specific configuration modes, such as interface configuration mode
+      --> ya estando en global ya puedes accesar a administradores de tareas
+      especificas como estas :
+        * Interface mode - to configure one of the network interfaces
+        * Line mode - to configure one of the physical or virtual lines
+
+
+
+Keywords
+  - Show--> tiene varios argumentos y sirve para ver algo en especifico
+    * Switch# show running-config
+  - Description -->
+    * Switch(config-if)# description string
+  - Ping- -->
+    * Switch> ping 10.10.10.5
+  - Tracerute
+    * Switch> traceroute 192.168.254.254
+
+
+
+ip del tec 10.49.25.5
+
+Clase

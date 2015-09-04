@@ -1,0 +1,138 @@
+Exploring the network
+
+LANs, WANs and the Internet
+  The network infraestructure contains three categoties of network components:
+    - Devices
+    - Media
+    - Services
+  Devices and media are hardware, not allways visible, like wifi, you cant see it
+  The network devices that we are familiar with, are the end devices;
+    - Computers
+    - Network printers
+    - VoIP phones
+    - TelePresence endpoint
+    - Security camaras
+    - Mobile handheld devices
+  All these End devices are interconnected by intermediary devices like
+    - Network Access (switches and wirless acces points)
+    - Internetworking (routers)
+    - Security (firewalls)
+  The processes running on the intermediary network devices perform these functions:
+    - Regenerate and retransmit dara signals
+    - Maintain information about what pathways exist through the network and internetwork
+    - Notify other devices of errors and comunication failures
+    - Direct data along alternate pathways when there is a link failure
+    - Classify and direct messages according to Quality of service (QoS) priorities
+    - Permit or deny the flow data, based on security settings
+  The communication across network is carried on a medium thet is the chanel
+  were the message travel, modern networks use three types of media:
+    - Metallic wires within cables
+      The data is encoded into electrical impulses that match especific patterns
+    - Glass or plastic fibers (fiber optic cable)
+      The data is transmited on pulse of light, within either infrared or visible
+      light ranges
+    - Wireless transmission
+      Patterns of electromagnetic waves depict the various bit values
+  We have to choose which media we want by these criteria:
+    - The distance the media can successfully carry a signal
+    - The environment in which the media is to be installed
+    - The amount of data and speed at which it must be transmited
+    - The cost of the media and the installation
+  Network Interface Card --> A NIC, or LAN adapter, provides the physical
+    connection to the network at the PC or other host device. The media connecting
+    the PC to the networking device plugs directly into the NIC
+  Physical Port --> A connector on a network device where the media is connected
+    to an other network device
+  Interface --> Specialized ports on an internetworking device that connect to
+    individual networks
+  There are 2 types of topology diagrams
+    - Physical topology diagrams --> Identify the physical location of
+      intermediary devices, configured ports, and cable installation.
+    - Logical topology diagrams --> Identify devices, ports, and IP addressing scheme.
+  Network infraestructure vary in terms of
+    - Size of the area covered
+    - Number of users connected
+    - Number and type of services aviable
+  Local Area Network (LAN) --> access to network in a small geographical area
+    - Home, School, office building
+    - Provided by a single person or company
+  Wide Area Network (WAN) --> A network infrastructure that provides access to
+    other networks over a wide geographical area.
+    - This are tipically managed by service provider many (SP) or Internet Service Provider (ISP)
+    - WANS intercoennect LANS across countries and continents
+  Metropolitan Area Network (MAN) --> bigger than LAN and smaller than WAN, it is tipically
+    operated by an organization.
+  Wireless LAN (WLAN) --> the same as LAN but wireless
+  Storage Area Network (SAN) --> A network infrastructure designed to support file
+    servers and provide data storage, retrieval, and replication. It involves
+    high-end servers, multiple disk arrays (called blocks), and Fibre Channel
+    interconnection technology.
+  There are some organizations that take care of the Internet mantein the structure
+  and standarization
+    - Internet Engeneering Task Force (IETF)
+    - Intenret Corporation for Asigned Names and Numbers (ICANN)
+    - Internet Architecture Board (IAB)
+  Intranet --> Is a small LAN for a bussines or organization so they can comunicate
+    inside the organization.
+  Extranet --> Is for people from outside of the company like suppliers, contractors
+  Common conection options for a small office and home office:
+    - Cable --> Tipically ofered by cable television service providers, with a special cable
+      that separates the Internet signal from other signals
+    - DSL --> Provides a hight bandwith, it recuires a special hight-speed modem
+      that that separates the DSL signal from the telephone signal and provides
+      an Ethernet connection to a host computer or LAN.
+      DSL runs over a telephone line, with the line split into three channels.
+        * Used for voice telephone calls
+        * A faster download channel
+        * Upload
+    - Cellular --> The signal can reach everybody who hace a celular signal
+    - Satellite
+    - Dial-up Telephone --> Thes is very cheep and slow
+    - Fibre optic cable
+  Corporate connection have different options
+    - Dedicated Leased Line --> This is a dedicated connection from the service
+      provider to the customer premise.
+    - Metro Ethernet --> This is tipically aviable from a provider to the costumer
+      over a dedicated copper or fiber (speeds of 10Mbps to 10Gbps)
+    - DSL --> There are variouys formats a very popular chice is Symmetric Digital
+      Subscriber Lines (SDSL)  which is similar to Asymmetric Digital Subscriber
+      Line (ADSL), but provides the same upload and download speeds.
+    - Satellite --> Satellite service can provide a connection when a wired solution
+      is not available, but is slower
+
+The network as a plattaform
+
+
+
+
+
+
+
+
+
+Recap del capitulo en clase
+  En las redes es importante que tenga
+    - Redundancia
+    - Escalabilidad
+  Medios
+    - Cobre --> telefono(1par)POTS --> MODEM
+            --> UTP
+  LAN                         |    WAN
+    - Misma propiedad         |     - Todo aquel quipo de red que maneja tecnología
+    - Misma administracion    |       de WAN (X.25, FrameRelay, PPP, HDLL)
+    - Chiquita                |
+    - 1 solo lugar            |
+    - Protocolos              |
+    - Ethernet
+
+Simbología de la red en simbologiaDeRed.jpg
+
+Imagen internetDelTec.jpg
+  Port Channel --> juntas varios cambles de internet y lso juntas para que sean un
+      solo bundle
+  Switch --> Existen 2 opciones, puedes tener 24 puertos + "x" UpLink ó
+      48 puertos + "x" UpLink
+  WLC --> Wireless Lan Controler, este es el cerebro del internet, revisa que tanta
+      potencia le va a dar a un access point y en que canal vasn a transmitir,
+      segun algoritmos que lo calculan
+  Esta imagen representa el internet de cada piso, y en cada piso se repite

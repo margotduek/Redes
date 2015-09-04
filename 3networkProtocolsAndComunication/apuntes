@@ -1,0 +1,51 @@
+Protocolos
+  TCP/IP
+    Se divide en 4 capas (Es importante el  orden)
+      - Application                   | Capa 4
+      - Transport                     | Capa 3
+      - Network                       | Capa 2
+      - Medium access                 | Capa 1
+  OSI (por ISO)
+    Se divide en 7 capas (Es importante el  orden)
+      - Application                   | Capa 7
+      - Presentacion                  | Capa 6
+      - Session                       | Capa 5
+      - Transpport                    | Capa 4
+      - Network                       | Capa 3
+      - Medium acces o Data Link      | Capa 2
+      - Fisical                       | Capa 1
+
+    Capa 5 (Datos)
+  PDU (Protocol Data Unit) Modelo OSI
+    Proceso de encapsulacion (es de arriba a abajo) (meter un segmento en un paquete
+    paquete en Trama y trama en bit)
+    Tunelear es manipular los datos en la misma capa, entonces encapsulacion
+    y tunelear no es lo mismo!
+    Capa 4 (Puertos y Segmentos)
+      Su trabajo es partir la información en segmentos para asegurar que llegue a
+      su destino, cada segmento tiene un header que cuenta con numero de secuencia
+      (que sería el equivalente al numero de rastreo en paquetes físicos) tambien
+      tiene un destinatario (que es un puerto)
+    Capa 3 (ip y paquetes)
+      A los segmentos que vienen de capa 4, se les agrega otro header pero ahora
+      de capa 3, donde esta la ip de tu computadora y la ip del servidor
+    Capa 2 (Trama y MAC)
+      Es llamado trama, toma los segmentos que ya traen header de capa 4, capa 3
+      y le agrega otro header con los MACs de la computadora origen (son 12  dígitos
+      Hexadecimales, va del 0 a la F, si hay G o H no existe ese MAC) y destino que
+      Si estan en la misma red, subred, vilan o LAN la MAC destino siempre sera
+      la de la tarjeta de red del servidor o host destino.
+    Capa 1 (bits)
+      Esta listo para ya mandar la información, ya es literalmente binario, ya son
+      puros 1s y 0s
+
+  MTU (Maximun Transfer Unit) --> es el máximo de datos que se puede transmitir,
+    el estandar son 1500 bytes pero se puede expandir hasta 10,000 bytes pero no
+    es práctico
+
+  DNS (Domain Name Service) --> Su trabajo es convertir de URL a IPs
+  ARP (Adress Resolution Protocol) --> Convierte de IP a MAC
+
+  Default getway 
+
+  flujo de la info en la red
