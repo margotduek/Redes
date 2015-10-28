@@ -1,0 +1,68 @@
+IP adress --> Internet Protocol(32 bits, 0-255)
+  IP ->
+  Subnet Mask ->  esta decidida por la clase
+  Gateway -> el ip y el gateway tienen que tener el mismo numero
+
+  Las Clases se ven en el primer número de la serie
+  1 - 126 = Class A
+      nos saltamos 127 que es para loop back
+  128 - 191 = Class B
+  192 - 223 = Class C
+      
+  224 - 239 = Class D     | No se usa, es para multicast
+  240 - 255 = Class E     | Es para ezperimentos
+
+
+
+
+
+
+    Temporizacion --> Tambien conocido como regla de participacionla persona debe
+    saber e que momento hablar
+  Método de acceso --> Momento exacto en el que se puede mandar un mensaje
+  Control del flujo -->
+  Tiempo de espera de respuesta --> El tiempo que se debe de esperar para obtener
+    una respuesta, si se termina ese tiempo que se debe hacer
+
+Opciones de entrega de mensajes
+  Unicast, multicast, broadcast
+
+Protocolos
+  IP
+  HTTP
+  DHC
+
+
+Protocolo de aplicacion
+  Se basa en la transferencia de HTTP (Web)
+Protocolo de transporte
+  Es el protocolo de control de transmision TCP, controla el tamaño y la
+  velocidad de encio de mensaje
+Protocolo de internet
+  Asigna las direcciones y envía los segmentos (ip)
+Protocolo de acceso a la red
+  Escribe 2 funciones, acceso de datos y transmisiones físicas
+
+
+TCP/IP
+Fueron los primeros de ser definidos para el estandar por ARPANET (1969)
+
+
+IEEE (Instituto de ingenieros en electricidad y electronica)
+  Crea estandares para el internet
+
+ISO (International organization for estandarization)
+  Más estandares
+  - Modelo de referencia e intercinexion de sistema abierto (OSI)
+
+
+Acceso local en un segmento de red
+  Cuando el emisor y el receptor están en la misma red, se manda el mensaje
+    directamente
+
+Direccion de enlace de datos
+  Direcciones MAC o direcciones físicas
+
+Acceso a redes remotas
+  Gateway predeterminado --> Es una clase de routes que es un dispositivo
+  intermediario para hacer que el emnsaje llegue bien al destinatario

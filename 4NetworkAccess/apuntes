@@ -1,0 +1,41 @@
+Cables UTP
+  Los cables 1, 2, 3 y 6 son de datos
+  Los cables 4, 5, 7 y 8 son de energía, corriente Directa
+
+  Colores:
+    Blanco Naranja
+    Naranja
+    Blanco Azul
+    Verde
+    Blanco Verde
+    Azul
+    Blanco café
+    Café
+  Es importante que  1y 2, 3 y 6 sean iguales porque son de datos
+
+
+
+Fibra Optica
+  MM (multimodo)
+    - Cortas distancias ~2km
+    - Varias señales
+    - $
+  SM (SingleMode)
+    - Largas distancias ~100Km
+    - Una señal
+    - Más caro
+
+  Hay 3 tipos
+    - ST
+    - SC
+    - LC
+
+Cobre
+
+
+802.3z Ethernet 1Gbps Fibra optica
+802.3ae Ethernet 10Gbps Fibra optica
+802.3ab Ethernet 1Gbps Cobre
+
+
+CSMA/CD --> Cable Sense Mecanical access colission detection
